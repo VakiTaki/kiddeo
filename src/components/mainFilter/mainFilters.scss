@@ -1,0 +1,22 @@
+@import "../../styles/vars.scss";
+
+.mainFilter {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.hourschange {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.hourschange__item {
+  width: 50%;
+}
+
+.main__header {
+  font-size: 14px !important;
+  color: $base-color-black;
+}

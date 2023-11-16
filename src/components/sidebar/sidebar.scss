@@ -1,0 +1,29 @@
+@import "../../styles/vars.scss";
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  //   gap: 20px;
+  width: 25%;
+  padding: 35px 20px;
+
+  @media screen and (max-width: $breakpoint-medium) {
+    width: 33%;
+  }
+  @media screen and (max-width: $breakpoint-small) {
+    width: 100%;
+  }
+}
+
+.sidebar__header {
+  color: $base-color-black;
+  font-weight: bold !important;
+  font-size: 16px !important;
+}
+
+.line {
+  height: 1px;
+  width: 100%;
+  background-color: #e3e3e3;
+  margin-top: 10px;
+}
